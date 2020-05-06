@@ -8,8 +8,8 @@ Feature: Login
     Then User verifies that "Portal" Page title is displayed
 
 
-#  @login_credentials
-#  Scenario: User should be able to login with credentials
-#    Given User is on the landing page
-#    And User enters "helpdesk47@cybertekschool.com" as a username and "UserUser" as password
-# //   Then User verifies that "Portal" Page title is displayed
+  @login_credentials
+  Scenario: User should be able to login with credentials
+    Given User is on the landing page
+    And User enters "helpdesk47@cybertekschool.com" as a username and "UserUser" as password
+   Then User verifies that "Portal" Page title is displayed

@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
 
         dryRun = false,
 
-        tags = "@login_hr",
+        tags = "@login",
 
         plugin = {"html:target/default-cucumber-reports",
 
