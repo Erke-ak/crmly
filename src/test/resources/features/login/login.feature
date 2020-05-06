@@ -12,9 +12,6 @@ Feature: Login
   Scenario: User should be able to login with credentials
     Given User is on the landing page
     And User enters "helpdesk47@cybertekschool.com" as a username and "UserUser" as password
-<<<<<<< HEAD
-   Then User verifies that "Portal" Page title is displayed
-=======
     Then User verifies that "Portal" Page title is displayed
 
   @login_with_data_table
@@ -54,4 +51,4 @@ Feature: Login
       | hr48@cybertekschool.com        | UserUser |
 
 
->>>>>>> d35a9a64fa0f119c662b0171374a799e5154f541
+
