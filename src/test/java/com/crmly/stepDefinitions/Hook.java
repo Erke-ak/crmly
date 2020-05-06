@@ -18,9 +18,7 @@ public class Hook {
         System.out.println("Test setup!");
         Driver.get().get(ConfigurationReader.getProperty("url"));
         Driver.get().manage().window().maximize();
-
     }
-
 
     @After
     public void teardown(Scenario scenario){

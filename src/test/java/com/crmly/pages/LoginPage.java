@@ -28,5 +28,26 @@ public class LoginPage extends BasePage {
     public void login(){
         login(ConfigurationReader.getProperty("username"),ConfigurationReader.getProperty("password"));
     }
+    public void login(String role) {
+        String username = "";
+        String password = "";
+        switch (role) {
+            case "hr":
+                username = ConfigurationReader.getProperty("hr.username");
+                password = ConfigurationReader.getProperty("hr.password");
+                break;
+            case "marketing":
+                username = ConfigurationReader.getProperty("marketing.username");
+                password = ConfigurationReader.getProperty("marketing.password");
+                break;
+            case "helpdesk":
+                username = ConfigurationReader.getProperty("helpdesk.username");
+                password = ConfigurationReader.getProperty("helpdesk.password");
+                break;
+            default:
+                throw new RuntimeException("Invalid role!");
+        }
+        login(username, password);
+    }
 
 }

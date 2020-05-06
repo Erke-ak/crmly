@@ -15,7 +15,11 @@ import org.junit.runner.RunWith;
 
         dryRun = false,
 
+<<<<<<< HEAD
         tags = "@login",
+=======
+        tags = "@login_credentials_ddt",
+>>>>>>> d35a9a64fa0f119c662b0171374a799e5154f541
 
         plugin = {"html:target/default-cucumber-reports",
 
