@@ -1,372 +1,123 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/login/login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/activityStream/mainPage.feature");
 formatter.feature({
-  "name": "Login",
+  "name": "",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@login"
+      "name": "@main_page"
     }
   ]
 });
-formatter.scenarioOutline({
-  "name": "DDT examples with \u003cusername\u003e and \u003cpassword\u003e",
+formatter.background({
+  "name": "",
   "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@login_credentials_ddt"
-    }
-  ]
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "User is on the landing page",
   "keyword": "Given "
 });
-formatter.step({
-  "name": "User enters \"\u003cusername\u003e\" as a username and \"\u003cpassword\u003e\" as password",
-  "keyword": "And "
+formatter.match({
+  "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
+});
+formatter.result({
+  "status": "passed"
 });
 formatter.step({
-  "name": "User verifies that \"Portal\" Page title is displayed",
-  "keyword": "Then "
+  "name": "User logs in \"hr\"",
+  "keyword": "When "
 });
-formatter.examples({
-  "name": "",
+formatter.match({
+  "location": "LoginStepDefinitions.user_logs_in(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Subtitles of Activity Stream",
   "description": "",
-  "keyword": "Examples",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@main_page"
+    },
+    {
+      "name": "@subtitles"
+    }
+  ]
+});
+formatter.step({
+  "name": "User verified that following subtitles are displayed for Activity Stream",
   "rows": [
     {
       "cells": [
-        "username",
-        "password"
+        "Activity Stream"
       ]
     },
     {
       "cells": [
-        "helpdesk47@cybertekschool.com",
-        "UserUser"
+        "Tasks"
       ]
     },
     {
       "cells": [
-        "marketing47@cybertekschool.com",
-        "UserUser"
+        "Chat and Calls"
       ]
     },
     {
       "cells": [
-        "hr47@cybertekschool.com",
-        "UserUser"
+        "Workgroups"
       ]
     },
     {
       "cells": [
-        "helpdesk48@cybertekschool.com",
-        "UserUser"
+        "Drive"
       ]
     },
     {
       "cells": [
-        "marketing48@cybertekschool.com",
-        "UserUser"
+        "Calendar 9"
       ]
     },
     {
       "cells": [
-        "hr48@cybertekschool.com",
-        "UserUser"
+        "Mail"
+      ]
+    },
+    {
+      "cells": [
+        "Contact Center"
+      ]
+    },
+    {
+      "cells": [
+        "Time and Reports"
+      ]
+    },
+    {
+      "cells": [
+        "Employees"
+      ]
+    },
+    {
+      "cells": [
+        "Services"
+      ]
+    },
+    {
+      "cells": [
+        "Company"
       ]
     }
-  ]
-});
-formatter.scenario({
-  "name": "DDT examples with helpdesk47@cybertekschool.com and UserUser",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@login"
-    },
-    {
-      "name": "@login_credentials_ddt"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User is on the landing page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User enters \"helpdesk47@cybertekschool.com\" as a username and \"UserUser\" as password",
+  ],
   "keyword": "And "
 });
 formatter.match({
-  "location": "LoginStepDefinitions.user_enters_as_a_username_and_as_password(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User verifies that \"Portal\" Page title is displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginStepDefinitions.user_verifies_that_Page_title_is_displayed(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "DDT examples with marketing47@cybertekschool.com and UserUser",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@login"
-    },
-    {
-      "name": "@login_credentials_ddt"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User is on the landing page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User enters \"marketing47@cybertekschool.com\" as a username and \"UserUser\" as password",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "LoginStepDefinitions.user_enters_as_a_username_and_as_password(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User verifies that \"Portal\" Page title is displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginStepDefinitions.user_verifies_that_Page_title_is_displayed(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "DDT examples with hr47@cybertekschool.com and UserUser",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@login"
-    },
-    {
-      "name": "@login_credentials_ddt"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User is on the landing page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User enters \"hr47@cybertekschool.com\" as a username and \"UserUser\" as password",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "LoginStepDefinitions.user_enters_as_a_username_and_as_password(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User verifies that \"Portal\" Page title is displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginStepDefinitions.user_verifies_that_Page_title_is_displayed(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "DDT examples with helpdesk48@cybertekschool.com and UserUser",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@login"
-    },
-    {
-      "name": "@login_credentials_ddt"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User is on the landing page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User enters \"helpdesk48@cybertekschool.com\" as a username and \"UserUser\" as password",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "LoginStepDefinitions.user_enters_as_a_username_and_as_password(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User verifies that \"Portal\" Page title is displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginStepDefinitions.user_verifies_that_Page_title_is_displayed(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "DDT examples with marketing48@cybertekschool.com and UserUser",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@login"
-    },
-    {
-      "name": "@login_credentials_ddt"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User is on the landing page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User enters \"marketing48@cybertekschool.com\" as a username and \"UserUser\" as password",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "LoginStepDefinitions.user_enters_as_a_username_and_as_password(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User verifies that \"Portal\" Page title is displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginStepDefinitions.user_verifies_that_Page_title_is_displayed(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "DDT examples with hr48@cybertekschool.com and UserUser",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@login"
-    },
-    {
-      "name": "@login_credentials_ddt"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User is on the landing page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User enters \"hr48@cybertekschool.com\" as a username and \"UserUser\" as password",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "LoginStepDefinitions.user_enters_as_a_username_and_as_password(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User verifies that \"Portal\" Page title is displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginStepDefinitions.user_verifies_that_Page_title_is_displayed(String)"
+  "location": "MainPageStepDefinitions.user_verified_that_following_subtitles_are_displayed_for_Activity_Stream(String\u003e)"
 });
 formatter.result({
   "status": "passed"

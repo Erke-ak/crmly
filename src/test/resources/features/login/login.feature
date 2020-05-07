@@ -7,6 +7,12 @@ Feature: Login
     And User logs in as hr
     Then User verifies that "Portal" Page title is displayed
 
+  @login_string
+  Scenario: User should be able to login as hr with credentials
+    Given User is on the landing page
+    And User logs in as "hr"
+    Then User verifies that "Portal" Page title is displayed
+
 
   @login_credentials
   Scenario: User should be able to login with credentials

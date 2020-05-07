@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
 
         dryRun = false,
 
-        tags = "@login_credentials_ddt",
+        tags = "@subtitles",
 
         plugin = {"html:target/default-cucumber-reports",
 
