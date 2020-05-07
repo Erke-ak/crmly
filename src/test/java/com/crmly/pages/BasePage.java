@@ -10,6 +10,7 @@ import java.util.List;
 public class BasePage {
 
 
+<<<<<<< HEAD
     public BasePage() {
         PageFactory.initElements(Driver.get(), this);
     }
@@ -27,5 +28,10 @@ public class BasePage {
 
         }
         return listOfStrings;
+=======
+    public BasePage(){
+
+        PageFactory.initElements(Driver.get(),this);
+>>>>>>> 2f8a7e5c352d1c271d378bbdf40b00a00a3fe8ed
     }
 }

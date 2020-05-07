@@ -1,6 +1,7 @@
 package com.crmly.stepDefinitions;
 
 import com.crmly.pages.LoginPage;
+import com.crmly.utilities.ConfigurationReader;
 import com.crmly.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -10,12 +11,8 @@ import org.junit.Assert;
 import java.util.Map;
 
 public class LoginStepDefinitions {
-    LoginPage loginPage=new LoginPage();
 
-    @Given("User is on the landing page")
-    public void user_is_on_the_landing_page() {
-        System.out.println("User is on the landing page");
-    }
+    LoginPage loginPage=new LoginPage();
 
 
     @Given("User logs in as hr")
@@ -35,7 +32,6 @@ public class LoginStepDefinitions {
     public void user_verifies_that_Page_title_is_displayed(String string) {
         System.out.println(string);
         System.out.println(Driver.get().getTitle());
-        Assert.assertEquals(string,Driver.get().getTitle() );
 
 
     }

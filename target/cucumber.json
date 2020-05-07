@@ -3,8 +3,322 @@
     "line": 2,
     "elements": [
       {
+<<<<<<< HEAD
         "line": 4,
         "name": "",
+=======
+<<<<<<< HEAD
+        "start_timestamp": "2020-05-05T22:12:33.971Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4620273865,
+=======
+        "start_timestamp": "2020-05-06T16:57:34.056Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6443620100,
+>>>>>>> d35a9a64fa0f119c662b0171374a799e5154f541
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "DDT examples with helpdesk47@cybertekschool.com and UserUser",
+        "description": "",
+        "id": "login;ddt-examples-with-\u003cusername\u003e-and-\u003cpassword\u003e;;2",
+        "after": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 180619594,
+=======
+              "duration": 1204792900,
+>>>>>>> d35a9a64fa0f119c662b0171374a799e5154f541
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 23577234,
+=======
+              "duration": 30051700,
+>>>>>>> d35a9a64fa0f119c662b0171374a799e5154f541
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User is on the landing page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+<<<<<<< HEAD
+=======
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4259979900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User enters \"helpdesk47@cybertekschool.com\" as a username and \"UserUser\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"helpdesk47@cybertekschool.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser\"",
+                  "offset": 62
+                }
+              ],
+              "location": "LoginStepDefinitions.user_enters_as_a_username_and_as_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12208400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User verifies that \"Portal\" Page title is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Portal\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStepDefinitions.user_verifies_that_Page_title_is_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@login_credentials_ddt"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-06T16:57:46.043Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5615605500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "DDT examples with marketing47@cybertekschool.com and UserUser",
+        "description": "",
+        "id": "login;ddt-examples-with-\u003cusername\u003e-and-\u003cpassword\u003e;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1129114000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 568300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User is on the landing page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4020238800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User enters \"marketing47@cybertekschool.com\" as a username and \"UserUser\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"marketing47@cybertekschool.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser\"",
+                  "offset": 63
+                }
+              ],
+              "location": "LoginStepDefinitions.user_enters_as_a_username_and_as_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9774300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User verifies that \"Portal\" Page title is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Portal\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStepDefinitions.user_verifies_that_Page_title_is_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@login_credentials_ddt"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-06T16:57:56.821Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6017334300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "DDT examples with hr47@cybertekschool.com and UserUser",
+        "description": "",
+        "id": "login;ddt-examples-with-\u003cusername\u003e-and-\u003cpassword\u003e;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1093632300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 802200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User is on the landing page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3197874800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User enters \"hr47@cybertekschool.com\" as a username and \"UserUser\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hr47@cybertekschool.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser\"",
+                  "offset": 56
+                }
+              ],
+              "location": "LoginStepDefinitions.user_enters_as_a_username_and_as_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81514100,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User verifies that \"Portal\" Page title is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Portal\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStepDefinitions.user_verifies_that_Page_title_is_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@login_credentials_ddt"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-06T16:58:07.215Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5890935200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "DDT examples with helpdesk48@cybertekschool.com and UserUser",
+>>>>>>> 2f8a7e5c352d1c271d378bbdf40b00a00a3fe8ed
         "description": "",
         "type": "background",
         "keyword": "Background",
@@ -74,6 +388,7 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 474455700,
               "status": "passed"
             },
@@ -145,6 +460,159 @@
               }
             ],
             "keyword": "And "
+=======
+              "duration": 642100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User is on the landing page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+>>>>>>> d35a9a64fa0f119c662b0171374a799e5154f541
+            "keyword": "Given "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 2844646483,
+=======
+              "duration": 8790127200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User enters \"marketing48@cybertekschool.com\" as a username and \"UserUser\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"marketing48@cybertekschool.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser\"",
+                  "offset": 63
+                }
+              ],
+              "location": "LoginStepDefinitions.user_enters_as_a_username_and_as_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14688100,
+>>>>>>> d35a9a64fa0f119c662b0171374a799e5154f541
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User verifies that \"Portal\" Page title is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Portal\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStepDefinitions.user_verifies_that_Page_title_is_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@login_credentials_ddt"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-06T16:58:32.895Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6092682300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "DDT examples with hr48@cybertekschool.com and UserUser",
+        "description": "",
+        "id": "login;ddt-examples-with-\u003cusername\u003e-and-\u003cpassword\u003e;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1116792200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3089600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User is on the landing page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3913343900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User enters \"hr48@cybertekschool.com\" as a username and \"UserUser\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hr48@cybertekschool.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser\"",
+                  "offset": 56
+                }
+              ],
+              "location": "LoginStepDefinitions.user_enters_as_a_username_and_as_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+<<<<<<< HEAD
+              "duration": 99028420,
+=======
+              "duration": 73825400,
+>>>>>>> d35a9a64fa0f119c662b0171374a799e5154f541
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User verifies that \"Portal\" Page title is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Portal\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStepDefinitions.user_verifies_that_Page_title_is_displayed(String)"
+            },
+            "keyword": "Then "
+>>>>>>> 2f8a7e5c352d1c271d378bbdf40b00a00a3fe8ed
           }
         ],
         "tags": [
@@ -153,6 +621,99 @@
           },
           {
             "name": "@subtitles"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-05T22:12:41.848Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2464865724,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User should be able to login with credentials",
+        "description": "",
+        "id": "login;user-should-be-able-to-login-with-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 184160504,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1806219,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on the landing page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2413293758,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters \"helpdesk47@cybertekschool.com\" as a username and \"UserUser\" as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"helpdesk47@cybertekschool.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser\"",
+                  "offset": 62
+                }
+              ],
+              "location": "LoginStepDefinitions.user_enters_as_a_username_and_as_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36789274,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User verifies that \"Portal\" Page title is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Portal\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStepDefinitions.user_verifies_that_Page_title_is_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@login_credentials"
           }
         ]
       }
