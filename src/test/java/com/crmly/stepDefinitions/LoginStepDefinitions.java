@@ -5,6 +5,7 @@ import com.crmly.utilities.ConfigurationReader;
 import com.crmly.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.junit.Assert;
 
 import java.util.Map;
@@ -18,6 +19,12 @@ public class LoginStepDefinitions {
     public void user_logs_in_as_hr() {
         loginPage.login();
         System.out.println("User logs in as hr");
+
+    }
+
+    @When("User logs in {string}")
+    public void user_logs_in(String role) {
+        loginPage.login(role);
 
     }
 

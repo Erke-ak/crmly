@@ -4,6 +4,10 @@
     "elements": [
       {
 <<<<<<< HEAD
+        "line": 4,
+        "name": "",
+=======
+<<<<<<< HEAD
         "start_timestamp": "2020-05-05T22:12:33.971Z",
         "before": [
           {
@@ -314,28 +318,17 @@
         ],
         "line": 49,
         "name": "DDT examples with helpdesk48@cybertekschool.com and UserUser",
+>>>>>>> 2f8a7e5c352d1c271d378bbdf40b00a00a3fe8ed
         "description": "",
-        "id": "login;ddt-examples-with-\u003cusername\u003e-and-\u003cpassword\u003e;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 773617100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.teardown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 1255700,
+              "duration": 48569800,
               "status": "passed"
             },
-            "line": 40,
+            "line": 5,
             "name": "User is on the landing page",
             "match": {
               "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
@@ -344,60 +337,30 @@
           },
           {
             "result": {
-              "duration": 2926178300,
+              "duration": 3108626000,
               "status": "passed"
             },
-            "line": 41,
-            "name": "User enters \"helpdesk48@cybertekschool.com\" as a username and \"UserUser\" as password",
+            "line": 6,
+            "name": "User logs in \"hr\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"helpdesk48@cybertekschool.com\"",
-                  "offset": 12
-                },
-                {
-                  "val": "\"UserUser\"",
-                  "offset": 62
+                  "val": "\"hr\"",
+                  "offset": 13
                 }
               ],
-              "location": "LoginStepDefinitions.user_enters_as_a_username_and_as_password(String,String)"
+              "location": "LoginStepDefinitions.user_logs_in(String)"
             },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 17662000,
-              "status": "passed"
-            },
-            "line": 42,
-            "name": "User verifies that \"Portal\" Page title is displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Portal\"",
-                  "offset": 19
-                }
-              ],
-              "location": "LoginStepDefinitions.user_verifies_that_Page_title_is_displayed(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login"
-          },
-          {
-            "name": "@login_credentials_ddt"
+            "keyword": "When "
           }
         ]
       },
       {
-        "start_timestamp": "2020-05-06T16:58:16.827Z",
+        "start_timestamp": "2020-05-07T17:33:30.619Z",
         "before": [
           {
             "result": {
-              "duration": 6533101600,
+              "duration": 7787373200,
               "status": "passed"
             },
             "match": {
@@ -405,14 +368,14 @@
             }
           }
         ],
-        "line": 50,
-        "name": "DDT examples with marketing48@cybertekschool.com and UserUser",
+        "line": 22,
+        "name": "Subtitles of Activity Stream",
         "description": "",
-        "id": "login;ddt-examples-with-\u003cusername\u003e-and-\u003cpassword\u003e;;6",
+        "id": ";subtitles-of-activity-stream",
         "after": [
           {
             "result": {
-              "duration": 727822200,
+              "duration": 1274350200,
               "status": "passed"
             },
             "match": {
@@ -421,10 +384,83 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 474455700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User verified that following subtitles are displayed for Activity Stream",
+            "match": {
+              "location": "MainPageStepDefinitions.user_verified_that_following_subtitles_are_displayed_for_Activity_Stream(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Activity Stream"
+                ]
+              },
+              {
+                "cells": [
+                  "Tasks"
+                ]
+              },
+              {
+                "cells": [
+                  "Chat and Calls"
+                ]
+              },
+              {
+                "cells": [
+                  "Workgroups"
+                ]
+              },
+              {
+                "cells": [
+                  "Drive"
+                ]
+              },
+              {
+                "cells": [
+                  "Calendar 9"
+                ]
+              },
+              {
+                "cells": [
+                  "Mail"
+                ]
+              },
+              {
+                "cells": [
+                  "Contact Center"
+                ]
+              },
+              {
+                "cells": [
+                  "Time and Reports"
+                ]
+              },
+              {
+                "cells": [
+                  "Employees"
+                ]
+              },
+              {
+                "cells": [
+                  "Services"
+                ]
+              },
+              {
+                "cells": [
+                  "Company"
+                ]
+              }
+            ],
+            "keyword": "And "
+=======
               "duration": 642100,
               "status": "passed"
             },
@@ -576,14 +612,15 @@
               "location": "LoginStepDefinitions.user_verifies_that_Page_title_is_displayed(String)"
             },
             "keyword": "Then "
+>>>>>>> 2f8a7e5c352d1c271d378bbdf40b00a00a3fe8ed
           }
         ],
         "tags": [
           {
-            "name": "@login"
+            "name": "@main_page"
           },
           {
-            "name": "@login_credentials_ddt"
+            "name": "@subtitles"
           }
         ]
       },
@@ -681,14 +718,14 @@
         ]
       }
     ],
-    "name": "Login",
+    "name": "",
     "description": "",
-    "id": "login",
+    "id": "",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/login/login.feature",
+    "uri": "file:src/test/resources/features/activityStream/mainPage.feature",
     "tags": [
       {
-        "name": "@login",
+        "name": "@main_page",
         "type": "Tag",
         "location": {
           "line": 1,
