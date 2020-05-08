@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="355f7218-c5d9-4b41-8c53-d3f310bf7ab2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/crmly/pages/EventPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/crmly/stepDefinitions/EventStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/activityStream/event.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crmly/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crmly/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crmly/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crmly/pages/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/crmly/runners/CucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crmly/runners/CucumberRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crmly/stepDefinitions/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crmly/stepDefinitions/LoginStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/task.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/embedded0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/login/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/login/login.feature" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,117 +24,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/crmly/pages/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/crmly/pages/MainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/crmly/stepDefinitions/LoginStepDefinitions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/activityStream/mainPage.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/crmly/pages/BasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/crmly/runners/CucumberRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/crmly/stepDefinitions/MainPageStepDefinitions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/login/login.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/task.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -136,27 +35,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/crmly/utilities/ConfigurationReader.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/crmly/utilities/Driver.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/crmly/stepDefinitions/Hook.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/crmly/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/login/login.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/crmly/stepDefinitions/LoginStepDefinitions.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/crmly/pages/ActivityStreamPage.java" />
-        <option value="$PROJECT_DIR$/configuration.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/crmly/pages/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/crmly/pages/MainPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/crmly/stepDefinitions/MainPageStepDefinitions.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/activityStream/mainPage.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/crmly/runners/CucumberRunner.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -164,141 +42,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="697" />
-    <option name="y" value="5" />
-    <option name="width" value="1214" />
-    <option name="height" value="1053" />
-  </component>
+  <component name="ProjectId" id="1bb514GMh3e8t1kglIFRC1UsCCY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Crmly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crmly" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crmly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crmly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crmly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crmly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crmly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crmly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crmly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crmly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crmly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crmly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="crmly" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crmly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crmly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="crmly" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crmly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crmly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="crmly" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crmly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crmly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="crmly" type="462c0819:PsiDirectoryNode" />
-              <item name="stepDefinitions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crmly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crmly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="crmly" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crmly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crmly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crmly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crmly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crmly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crmly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="activityStream" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Crmly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crmly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -325,7 +70,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CucumberRunner (1)">
+    <configuration name="CucumberRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crmly" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crmly.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.crmly.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.crmly.runners.CucumberRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CucumberRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Crmly" />
       <extension name="coverage">
@@ -343,9 +103,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CucumberRunner (1)" />
         <item itemvalue="JUnit.CucumberRunner" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -379,254 +150,38 @@
       <option name="project" value="LOCAL" />
       <updated>1588873516587</updated>
     </task>
-    <task id="LOCAL-00004" summary="mainPage edited last">
-      <created>1588875516343</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1588875516343</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="CucumberRunner - 2020.05.07 at 11h 16m 51s.xml">
-      <configuration name="CucumberRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CucumberRunner - 2020.05.07 at 11h 18m 14s.xml">
-      <configuration name="CucumberRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CucumberRunner - 2020.05.07 at 11h 19m 05s.xml">
-      <configuration name="CucumberRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CucumberRunner - 2020.05.07 at 11h 27m 03s.xml">
-      <configuration name="CucumberRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CucumberRunner - 2020.05.07 at 11h 58m 48s.xml">
-      <configuration name="CucumberRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CucumberRunner - 2020.05.07 at 12h 08m 16s.xml">
-      <configuration name="CucumberRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CucumberRunner - 2020.05.07 at 12h 10m 27s.xml">
-      <configuration name="CucumberRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CucumberRunner - 2020.05.07 at 12h 26m 28s.xml">
-      <configuration name="CucumberRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CucumberRunner - 2020.05.07 at 12h 29m 01s.xml">
-      <configuration name="CucumberRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CucumberRunner - 2020.05.07 at 12h 33m 43s.xml">
-      <configuration name="CucumberRunner" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="697" y="5" width="1214" height="1053" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30242634" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.51570964" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.38369566" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.51570964" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32277834" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32936078" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.31947485" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.38244852" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ddt examples edit" />
     <MESSAGE value="ddt examples edited" />
     <MESSAGE value="mainPage edited" />
-    <MESSAGE value="mainPage edited last" />
-    <option name="LAST_COMMIT_MESSAGE" value="mainPage edited last" />
+    <option name="LAST_COMMIT_MESSAGE" value="mainPage edited" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources.properties" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crmly/utilities/ConfigurationReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crmly/runners/CukesRunner.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crmly/stepDefinitions/HookClass.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crmly/stepDefinitions/Hook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crmly/utilities/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/activityStream.feature" />
-    <entry file="file://$PROJECT_DIR$/configuration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crmly/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crmly/pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crmly/stepDefinitions/LoginStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crmly/pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crmly/stepDefinitions/MainPageStepDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login/login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/task.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/crmly/runners/CucumberRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/activityStream/mainPage.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/crmly/runners/CucumberRunner.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

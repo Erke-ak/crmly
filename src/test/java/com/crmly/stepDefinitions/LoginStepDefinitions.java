@@ -1,7 +1,7 @@
 package com.crmly.stepDefinitions;
 
 import com.crmly.pages.LoginPage;
-import com.crmly.utilities.ConfigurationReader;
+
 import com.crmly.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -13,6 +13,11 @@ import java.util.Map;
 public class LoginStepDefinitions {
 
     LoginPage loginPage=new LoginPage();
+
+    @Given("user is on the landing page")
+    public void user_is_on_the_landing_page() {
+
+    }
 
 
     @Given("User logs in as hr")
