@@ -1,24 +1,32 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/activityStream/mainPage.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/activityStream/event.feature");
 formatter.feature({
   "name": "",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@main_page"
+      "name": "@event"
     }
   ]
 });
-formatter.background({
+formatter.scenario({
   "name": "",
   "description": "",
-  "keyword": "Background"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@event"
+    },
+    {
+      "name": "@event_create"
+    }
+  ]
 });
 formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "User is on the landing page",
+  "name": "user is on the landing page",
   "keyword": "Given "
 });
 formatter.match({
@@ -28,96 +36,55 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User logs in \"hr\"",
-  "keyword": "When "
+  "name": "User logs in as \"helpdesk\"",
+  "keyword": "And "
 });
 formatter.match({
-  "location": "LoginStepDefinitions.user_logs_in(String)"
+  "location": "LoginStepDefinitions.user_logs_in_as(String)"
 });
 formatter.result({
   "status": "passed"
 });
-formatter.scenario({
-  "name": "Subtitles of Activity Stream",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@main_page"
-    },
-    {
-      "name": "@subtitles"
-    }
-  ]
+formatter.step({
+  "name": "User clicks on \"Event\" button",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "EventStepDefinitions.user_clicks_on_button(String)"
+});
+formatter.result({
+  "status": "passed"
 });
 formatter.step({
-  "name": "User verified that following subtitles are displayed for Activity Stream",
+  "name": "User enters following information",
   "rows": [
     {
       "cells": [
-        "Activity Stream"
+        "Event Name",
+        "Start Date",
+        "Start Time",
+        "End Date",
+        "End Time",
+        "Meeting Room",
+        "Members"
       ]
     },
     {
       "cells": [
-        "Tasks"
-      ]
-    },
-    {
-      "cells": [
-        "Chat and Calls"
-      ]
-    },
-    {
-      "cells": [
-        "Workgroups"
-      ]
-    },
-    {
-      "cells": [
-        "Drive"
-      ]
-    },
-    {
-      "cells": [
-        "Calendar 9"
-      ]
-    },
-    {
-      "cells": [
-        "Mail"
-      ]
-    },
-    {
-      "cells": [
-        "Contact Center"
-      ]
-    },
-    {
-      "cells": [
-        "Time and Reports"
-      ]
-    },
-    {
-      "cells": [
-        "Employees"
-      ]
-    },
-    {
-      "cells": [
-        "Services"
-      ]
-    },
-    {
-      "cells": [
-        "Company"
+        "Job Offer Celebration",
+        "8/12/2020",
+        "8:00 pm",
+        "8/12/2020",
+        "11:45 pm",
+        "East Meeting Room",
+        "To All employees"
       ]
     }
   ],
   "keyword": "And "
 });
 formatter.match({
-  "location": "MainPageStepDefinitions.user_verified_that_following_subtitles_are_displayed_for_Activity_Stream(String\u003e)"
+  "location": "EventStepDefinitions.user_enters_following_information(String,String\u003e\u003e)"
 });
 formatter.result({
   "status": "passed"
