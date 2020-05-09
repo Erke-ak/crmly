@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
 
         dryRun = false,
 
-        tags = " @event_create",
+        tags = "@more_feature",
 
         plugin = {"html:target/default-cucumber-reports",
 
