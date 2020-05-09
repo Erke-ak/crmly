@@ -7,7 +7,7 @@ Feature:
 
   @more_options
   Scenario: More options are displayed
-    Then User clicks on "More" button
+    Then User clicks on "MORE" button
     And User verified that following drop down menu options are displayed
       | File         |
       | Appreciation |
