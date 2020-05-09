@@ -14,10 +14,11 @@ public class LoginStepDefinitions {
 
     LoginPage loginPage=new LoginPage();
 
-    @Given("user is on the landing page")
-    public void user_is_on_the_landing_page() {
+    @Given("User is on the landing page")
+    public void User_is_on_the_landing_page() {
 
     }
+
 
 
     @Given("User logs in as hr")

@@ -29,7 +29,7 @@ public class MainPage extends BasePage{
     @FindBy(xpath = "//span[contains(text(),'Poll')]")
     public WebElement poll;
 
-    @FindBy(xpath = "//span[contains(text(),'More')]")
+    @FindBy(css = "[id='left-menu-more-btn']")
     public WebElement more;
 
 
