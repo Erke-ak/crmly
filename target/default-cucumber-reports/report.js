@@ -51,7 +51,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "User clicks on \"More\" button",
+  "name": "User clicks on \"MORE\" button",
   "keyword": "Then "
 });
 formatter.match({
@@ -90,10 +90,8 @@ formatter.match({
   "location": "MoreStepDefinitions.user_verified_that_following_drop_down_menu_options_are_displayed(String\u003e)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: expected:\u003c4\u003e but was:\u003c0\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat com.crmly.stepDefinitions.MoreStepDefinitions.user_verified_that_following_drop_down_menu_options_are_displayed(MoreStepDefinitions.java:17)\r\n\tat ✽.User verified that following drop down menu options are displayed(file:src/test/resources/features/activityStream/more.feature:11)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png", null);
 formatter.after({
   "status": "passed"
 });

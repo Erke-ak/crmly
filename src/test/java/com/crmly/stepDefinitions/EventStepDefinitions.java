@@ -32,6 +32,7 @@ public class EventStepDefinitions {
             eventPage.startDateInputBox.clear();
             eventPage.startDateInputBox.sendKeys(map.get("Start Date"));
             BasePage.wait(3);
+            eventPage.endDateInputBox.click();
             eventPage.endDateInputBox.clear();
             eventPage.endDateInputBox.sendKeys(map.get("End Date"));
             BasePage.wait(2);

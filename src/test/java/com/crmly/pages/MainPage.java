@@ -29,7 +29,7 @@ public class MainPage extends BasePage{
     @FindBy(xpath = "//span[contains(text(),'Poll')]")
     public WebElement poll;
 
-    @FindBy(css = "[id='left-menu-more-btn']")
+    @FindBy(css = "[id='feed-add-post-form-link-text']")
     public WebElement more;
 
 
@@ -66,7 +66,7 @@ public class MainPage extends BasePage{
                  poll.click();
                  break;
 
-             case "More":
+             case "MORE":
                  more.click();
                  break;
 
