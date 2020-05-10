@@ -1,11 +1,14 @@
 package com.crmly.pages;
 
+import com.crmly.utilities.Driver;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
 import java.time.LocalDate;
 import java.time.Period;
+import java.util.List;
 
 public class EventPage extends BasePage {
 
@@ -45,6 +48,13 @@ public class EventPage extends BasePage {
     @FindBy(xpath = "//*[text()='West Meeting Room']")
     public WebElement westMeetingRoom;
 
+    @FindBy(xpath = "//td[@class='feed-calendar-view-text-cell-r'][1]")
+    public WebElement eventNameAfterCreation;
+
+
+
+    @FindBy(xpath = "(//span[@title='Link'])[2]")
+    public List<WebElement> uploadFileImage;
 
 
 
@@ -59,9 +69,12 @@ public class EventPage extends BasePage {
         } else if (room.equals("West Meeting Room")) {
             westMeetingRoom.click();
 
-
         }
-
-
     }
+    public static void clickWithJS(WebElement saveButton) {
+        ((JavascriptExecutor) Driver.get()).executeScript("arguments[0].scrollIntoView(true);", saveButton);
+        ((JavascriptExecutor) Driver.get()).executeScript("arguments[0].click();", saveButton);
+    }
+
+
 }
