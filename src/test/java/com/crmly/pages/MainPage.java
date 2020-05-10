@@ -50,7 +50,7 @@ public class MainPage extends BasePage{
     public void clickButton(String button){
 
          switch (button){
-             case "Message":
+             case "MESSAGE":
                  message.click();
                  break;
 
