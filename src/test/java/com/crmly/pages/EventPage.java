@@ -53,6 +53,9 @@ public class EventPage extends BasePage {
 
 
 
+
+
+
     @FindBy(xpath = "(//span[@title='Link'])[2]")
     public List<WebElement> uploadFileImage;
 

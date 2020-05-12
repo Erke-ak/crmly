@@ -34,10 +34,10 @@ Feature:
       | Services         |
       | Company          |
 
-  @more_options
-  Scenario: More options are displayed
-    And User verified that following popup window options are displayed
-      | File         |
-      | Appreciation |
-      | Announcement |
-      | Workflow     |
+#  @more_options
+#  Scenario: More options are displayed
+#    And User verified that following popup window options are displayed
+#      | File         |
+#      | Appreciation |
+#      | Announcement |
+#      | Workflow     |

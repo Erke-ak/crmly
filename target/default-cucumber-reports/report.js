@@ -10,7 +10,7 @@ formatter.feature({
   ]
 });
 formatter.scenario({
-  "name": "User confirm attendance",
+  "name": "User can like comment",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -18,7 +18,7 @@ formatter.scenario({
       "name": "@event"
     },
     {
-      "name": "@confirm_attendance"
+      "name": "@like_comment"
     }
   ]
 });
@@ -36,7 +36,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User logs in as \"helpdesk\"",
+  "name": "User logs in as \"hr\"",
   "keyword": "And "
 });
 formatter.match({
@@ -46,27 +46,45 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User clicks on \"Confirm Attendance:\" button on the Event Window",
-  "keyword": "And "
+  "name": "User hover over the like button under event comment",
+  "keyword": "When "
 });
 formatter.match({
-  "location": "EventStepDefinitions.user_clicks_on_button_on_the_Event_Window(String)"
+  "location": "EventStepDefinitions.user_hover_over_the_like_button_under_event_comment()"
 });
 formatter.result({
-  "error_message": "java.lang.RuntimeException: Invalid role!\n\tat com.crmly.pages.MainPage.clickButtonOnEventWindow(MainPage.java:96)\n\tat com.crmly.stepDefinitions.EventStepDefinitions.user_clicks_on_button_on_the_Event_Window(EventStepDefinitions.java:66)\n\tat ✽.User clicks on \"Confirm Attendance:\" button on the Event Window(file:src/test/resources/features/activityStream/event.feature:26)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
-  "name": "User verifies that \"You are attending this event\" and \"Attendees confirmed\" message displayed on the Event Window",
+  "name": "User verifies that six emoji showed up",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "EventStepDefinitions.user_verifies_that_and_message_displayed_on_the_Event_Window(String,String)"
+  "location": "EventStepDefinitions.user_verifies_that_six_emogi_showed_up()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png", null);
+formatter.step({
+  "name": "User clicks \"Like\" under event comment",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "EventStepDefinitions.user_clicks_under_event_comment(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User verifies that like image was displayed on the comment",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "EventStepDefinitions.user_verifies_that_like_image_was_displayed_on_the_comment()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.after({
   "status": "passed"
 });

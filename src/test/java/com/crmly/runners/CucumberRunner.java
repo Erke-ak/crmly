@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
 
         dryRun = false,
 
-        tags = "@confirm_attendance",
+        tags = "@like_comment",
 
         plugin = {"html:target/default-cucumber-reports",
 

@@ -41,8 +41,34 @@ public class MainPage extends BasePage {
     @FindBy(xpath = "(//td[@class='feed-calendar-view-text-cell-l'])[3]")
     public WebElement AttendeesConfirmed;
 
-    @FindBy(xpath = "")
-    public WebElement eventInformers;
+    @FindBy(css = "[class*='menu-popup-item-text']")
+    public List<WebElement> moreButtonOptionsOnTheEventWindow;
+
+    @FindBy(xpath = "(//span[@class='feed-post-more-text'])[1]")
+    public WebElement eventWindowMoreButton;
+
+    @FindBy(xpath = "(//a[@class='feed-com-add-link'])[1]")
+    public WebElement commentInputBox;
+
+    @FindBy(xpath = "//div[@class='feed-com-text-inner-inner']")
+    public WebElement writtenCommentMessage;
+
+    @FindBy(linkText = "Like")
+    public WebElement likeUnderComment;
+
+    @FindBy(css = "[class='feed-post-emoji-icon-inner']>div")
+    public List<WebElement> emojis;
+
+    @FindBy(css = "[class='feed-com-reply feed-com-reply-Y']")
+    public WebElement replyUnderComment;
+
+    @FindBy(xpath = "(//span[@class='feed-post-more-text'])[1]")
+    public WebElement moreUnderComment;
+
+    @FindBy(css = "[class='feed-post-emoji-icon-container']")
+    public WebElement likeImageOnTheComment;
+
+
 
 
     public List<String> getTaskOptions() {
@@ -52,7 +78,16 @@ public class MainPage extends BasePage {
     }
 
     public List<String> getSubTitlesOfMainPage() {
+
         return getListOfString(subtitlesOfMainPage);
+    }
+
+    public List<String> getMoreOptionsOnTheEventWindow() {
+        return getListOfString(moreButtonOptionsOnTheEventWindow);
+    }
+
+    public List<String> getEmojis() {
+        return getListOfString(emojis);
     }
 
 
@@ -88,7 +123,7 @@ public class MainPage extends BasePage {
 
         switch (button) {
 
-            case "Confirm Attendance":
+            case "Confirm Attendance:":
                 confirmAttendance.click();
                 break;
 
@@ -98,9 +133,21 @@ public class MainPage extends BasePage {
         }
 
     }
+
+    public void clickButtonUnderComment(String button) {
+
+        if (button.equals("Like")) {
+            likeUnderComment.click();
+        }
+        else if (button.equals("Reply")) {
+            replyUnderComment.click();
+        }
+        else if (button.equals("More")) {
+            moreUnderComment.click();
+        }
+
+    }
 }
-
-
 
 
 
