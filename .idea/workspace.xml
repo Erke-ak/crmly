@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36613fe4-7f55-42fb-957c-6cbd77e673b5" name="Default Changelist" comment="" />
+    <list default="true" id="36613fe4-7f55-42fb-957c-6cbd77e673b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crmly/pages/Muhtar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crmly/pages/Vasil.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,8 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CucumberRunner (1)" />
         <item itemvalue="JUnit.CucumberRunner" />
         <item itemvalue="JUnit.CucumberRunner (1)" />
+        <item itemvalue="JUnit.CucumberRunner" />
+        <item itemvalue="JUnit.CucumberRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608790237693</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="mainPage edited">
+      <created>1608791020121</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608791020121</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
