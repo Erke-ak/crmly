@@ -7,47 +7,49 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage extends BasePage {
-    @FindBy(css="[name='USER_LOGIN']")
-    public WebElement userNameInputBox;
 
-    @FindBy(css = "[name='USER_PASSWORD']")
-    public WebElement passwordInputBox;
+    public class LoginPage extends BasePage {
+        @FindBy(css="[name='USER_LOGIN']")
+        public WebElement userNameInputBox;
 
-    public LoginPage(){
+        @FindBy(css = "[name='USER_PASSWORD']")
+        public WebElement passwordInputBox;
 
-        PageFactory.initElements(Driver.get(),this);
-    }
+        public LoginPage(){
 
-    public void login(String userName, String password){
-        userNameInputBox.sendKeys(userName);
-        passwordInputBox.sendKeys(password, Keys.ENTER);
-
-
-    }
-    public void login(){
-        login(ConfigurationReader.getProperty("username"),ConfigurationReader.getProperty("password"));
-    }
-    public void login(String role) {
-        String username = "";
-        String password = "";
-        switch (role) {
-            case "hr":
-                username = ConfigurationReader.getProperty("hr.username");
-                password = ConfigurationReader.getProperty("hr.password");
-                break;
-            case "marketing":
-                username = ConfigurationReader.getProperty("marketing.username");
-                password = ConfigurationReader.getProperty("marketing.password");
-                break;
-            case "helpdesk":
-                username = ConfigurationReader.getProperty("helpdesk.username");
-                password = ConfigurationReader.getProperty("helpdesk.password");
-                break;
-            default:
-                throw new RuntimeException("Invalid role!");
+            PageFactory.initElements(Driver.get(),this);
         }
-        login(username, password);
+
+        public void login(String userName, String password){
+            userNameInputBox.sendKeys(userName);
+            passwordInputBox.sendKeys(password, Keys.ENTER);
+
+
+        }
+        public void login(){
+            login(ConfigurationReader.getProperty("username"),ConfigurationReader.getProperty("password"));
+        }
+        public void login(String role) {
+            String username = "";
+            String password = "";
+            switch (role) {
+                case "hr":
+                    username = ConfigurationReader.getProperty("hr.username");
+                    password = ConfigurationReader.getProperty("hr.password");
+                    break;
+                case "marketing":
+                    username = ConfigurationReader.getProperty("marketing.username");
+                    password = ConfigurationReader.getProperty("marketing.password");
+                    break;
+                case "helpdesk":
+                    username = ConfigurationReader.getProperty("helpdesk.username");
+                    password = ConfigurationReader.getProperty("helpdesk.password");
+                    break;
+                default:
+                    throw new RuntimeException("Invalid role!");
+            }
+            login(username, password);
+        }
+
     }
 
-}
