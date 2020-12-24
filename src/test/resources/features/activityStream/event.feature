@@ -50,6 +50,7 @@ Feature:
     Then User verifies that like image was displayed on the comment
 
 #    event
+#  yesim
 
 
 #   git push --set-upstream origin Event

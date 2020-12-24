@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="36613fe4-7f55-42fb-957c-6cbd77e673b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crmly/pages/Akerke.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crmly/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crmly/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crmly/pages/Yesim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/activityStream/event.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/activityStream/event.feature" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +25,24 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="Yesim" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="event" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
