@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
 
     <list default="true" id="36613fe4-7f55-42fb-957c-6cbd77e673b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/crmly/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crmly/pages/Akerke.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crmly/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crmly/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crmly/pages/Yesim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/activityStream/event.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/activityStream/event.feature" afterDir="false" />
     </list>
 
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
