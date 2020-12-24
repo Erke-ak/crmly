@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BasePage {
+public abstract class BasePage {
 
 
 
