@@ -27,31 +27,31 @@ public class EventStepDefinitions {
 
     }
 
-    @Then("User enters following information")
-    public void user_enters_following_information(List<Map<String, String>> dataTable) {
-
-        for(Map<String, String> map: dataTable){
-            eventPage.eventNameInputBox.sendKeys(map.get("Event Name"));
-            BasePage.wait(2);
-            eventPage.startDateInputBox.clear();
-            eventPage.startDateInputBox.sendKeys(map.get("Start Date"));
-            BasePage.wait(3);
-            eventPage.endDateInputBox.click();
-            eventPage.endDateInputBox.clear();
-            eventPage.endDateInputBox.sendKeys(map.get("End Date"));
-            BasePage.wait(2);
-
-            eventPage.selectMeetingRoom(map.get("Meeting Room"));
-            BasePage.wait(2);
-
-            eventPage.members.click();
-            BasePage.wait(2);
-            eventPage.ToAllEmployees.click();
-            BasePage.wait(2);
-            eventPage.saveButton.click();
-            BasePage.wait(45);
-
-        }
+//    @Then("User enters following information")
+//    public void user_enters_following_information(List<Map<String, String>> dataTable) {
+//
+//        for(Map<String, String> map: dataTable){
+//            eventPage.eventNameInputBox.sendKeys(map.get("Event Name"));
+//            BasePage.wait(2);
+//            eventPage.startDateInputBox.clear();
+//            eventPage.startDateInputBox.sendKeys(map.get("Start Date"));
+//            BasePage.wait(3);
+//            eventPage.endDateInputBox.click();
+//            eventPage.endDateInputBox.clear();
+//            eventPage.endDateInputBox.sendKeys(map.get("End Date"));
+//            BasePage.wait(2);
+//
+//            eventPage.selectMeetingRoom(map.get("Meeting Room"));
+//            BasePage.wait(2);
+//
+//            eventPage.members.click();
+//            BasePage.wait(2);
+//            eventPage.ToAllEmployees.click();
+//            BasePage.wait(2);
+//            eventPage.saveButton.click();
+//            BasePage.wait(45);
+//
+//        }
 
 
 
