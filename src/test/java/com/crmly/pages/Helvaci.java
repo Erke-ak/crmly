@@ -12,6 +12,8 @@ public class Helvaci {
          System.out.println(c+d);
 
 
+        mavi
+            kirmixi
     }
 }
 
