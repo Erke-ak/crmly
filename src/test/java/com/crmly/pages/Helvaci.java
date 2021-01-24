@@ -14,6 +14,8 @@ public class Helvaci {
         // mor
           //       bordo
 
+        mavi
+            kirmixi
     }
 }
 
