@@ -55,7 +55,7 @@ public class EventStepDefinitions {
 
 
 
-    
+
 
     @Then("User enters following information")
     public void user_enters_following_information(List<Map<String, String>> dataTable) {
