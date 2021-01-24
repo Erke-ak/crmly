@@ -16,6 +16,7 @@ public class Helvaci {
 
         mavi
             kirmixi
+            lacivert
     }
 }
 
