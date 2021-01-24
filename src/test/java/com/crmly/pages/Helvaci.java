@@ -14,8 +14,9 @@ public class Helvaci {
         // mor
           //       bordo
 
-        mavi
-            kirmixi
+       // mavi
+           // kirmixi
+           //     mint
             lacivert
     }
 }
