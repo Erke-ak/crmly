@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="36613fe4-7f55-42fb-957c-6cbd77e673b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/crmly/pages/Helvaci.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/crmly/stepDefinitions/EventStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/crmly/stepDefinitions/EventStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Crmly.kotlin_module" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +197,35 @@
       <option name="project" value="LOCAL" />
       <updated>1608792245501</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge branch 'master' into Helvaci&#10;&#10;# Conflicts:&#10;#&#9;src/test/java/com/crmly/pages/Helvaci.java">
+      <created>1611466130677</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611466130677</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added mor">
+      <created>1611466317224</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611466317224</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added mint">
+      <created>1611466719682</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611466719682</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge branch 'master' into Helvaci&#10;&#10;# Conflicts:&#10;#&#9;src/test/java/com/crmly/pages/Helvaci.java">
+      <created>1611467020015</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611467020015</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -263,7 +291,10 @@
     <MESSAGE value="ddt examples edit" />
     <MESSAGE value="ddt examples edited" />
     <MESSAGE value="mainPage edited" />
-    <option name="LAST_COMMIT_MESSAGE" value="mainPage edited" />
+    <MESSAGE value="Added mor" />
+    <MESSAGE value="Added mint" />
+    <MESSAGE value="Merge branch 'master' into Helvaci&#10;&#10;# Conflicts:&#10;#&#9;src/test/java/com/crmly/pages/Helvaci.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' into Helvaci&#10;&#10;# Conflicts:&#10;#&#9;src/test/java/com/crmly/pages/Helvaci.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

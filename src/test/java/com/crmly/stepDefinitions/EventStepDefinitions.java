@@ -13,11 +13,15 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.util.List;
 import java.util.Map;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
 
 public class EventStepDefinitions {
 
     EventPage eventPage = new EventPage();
     MainPage mainPage = new MainPage();
+
+    Logger log = Logger.getLogger(LoginPage.class.getName());
 
     @Then("User clicks on {string} button")
     public void user_clicks_on_button(String string) {
